@@ -393,6 +393,7 @@ a:hover{
     border-radius: 4px;
     margin-top: 15px;
     position: relative;
+    height: auto;
 }
 #faq ul li a{
     font-size: 20px;
@@ -404,6 +405,7 @@ a:hover{
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #444444;
+    cursor: pointer;
 }
 #faq ul li a:hover{
     color:#2487ce ;
@@ -414,6 +416,13 @@ a:hover{
     position: absolute;
     left: 20px;
     top: 23px;
+}
+#faq .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+#faq .show{
+    display: none;
 }
 #contact i{
     display: flex;
